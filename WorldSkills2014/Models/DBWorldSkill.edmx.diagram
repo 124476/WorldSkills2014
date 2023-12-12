@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed758234ae7942ebaf6ed716e0581370" Name="Diagram1">
+        <EntityTypeShape EntityType="DBWorldSkills2014Model.ChatMessage" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWorldSkills2014Model.Chatroom" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWorldSkills2014Model.ChatroomMembers" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWorldSkills2014Model.Department" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWorldSkills2014Model.Employee" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBWorldSkills2014Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="DBWorldSkills2014Model.FK_ChatMessage_Chatroom" ManuallyRouted="false" />
+        <AssociationConnector Association="DBWorldSkills2014Model.FK_ChatMessage_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DBWorldSkills2014Model.FK_ChatroomMembers_Chatroom" ManuallyRouted="false" />
+        <AssociationConnector Association="DBWorldSkills2014Model.FK_ChatroomMembers_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DBWorldSkills2014Model.FK_Employee_Department" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
